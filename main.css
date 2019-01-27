@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.navigation{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #e17803;
+}
+.navigation2{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #e17803;
+}
+.sidebar{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.sidebar .icon{
+    color: white;
+    left: 50px;
+    position: relative;
+}
+.navigation .logo,.navigation2 .logo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo a{
+    position: relative;
+    right: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header-video{
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: -99;
+}
+.aboutus-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.aboutus-header-words{
+    height: 450px;
+    flex: 1;
+}
+.aboutus-header-words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus-header-words h1{
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+
+}
+.aboutus-header-image{
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%,0% 100%);
+    height: 450px;
+    flex: 5;
+}
+.aboutus-header-image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.safari-card-area{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.safari-card{
+    width: 30%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.safari-card img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: block;
+    object-fit: cover;
+}
+.safari-card .safari-card-words{
+   width: 100%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+}
+.safari-button{
+    background-color: #e17803 !important;
+    width: 100%;
+}
+.safari-card-words h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+@media(max-width: 576px){
+    .safari-card{
+        width: 100%;
+    }
+}
+.home-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.safari-details-tabs{
+    margin-top: 100px;
+    position: relative;
+}
+.safari-form{
+    height: 600px;
+    border: 1px solid;
+    border-color: #bdbdbd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1px;
+    background-color: white;
+}
+.safari-form-price-tab{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.safari-form-price-tab h6{
+    font-size: 20px;
+    color: red;
+}
+.input-field{
+    border: 1px solid;
+    border-color: #bdbdbd;
+    height: 50px;
+    background-color: rgb(251, 253, 255);;
+  }
+  .input-field select{
+      width: 100%;
+  }
+.input-field input[type=email],input[type=password],input[type=text]{
+    border: none !important;
+    border-bottom: 0px;
+    
+  }
+  .input-field input[type=email]::placeholder,input[type=password]::placeholder,input[type=text]::placeholder{
+  color: black;
+  }
+  .input-field input[type=email]:focus,input[type=password]:focus,input[type=text]:focus{
+    border-bottom: none!important;
+  box-shadow: none!important;
+  }
+
+  .book-button{
+      width: 100%;
+      height: 50px;
+      background-color: #e17803;
+  }
+  #gallery-tab{
+    column-count: 2;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    position: relative;
+  }
+  #gallery-tab img{
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      margin-bottom: 20px;
+  }
+  .tour-instructions i{
+      color: #e65100;
+  }
+  .tour-details-photo{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.tour-details-words h4{
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.tour-details-words p{
+    margin-bottom: 50px;
+}
+.tour-details-words img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.tour-map{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-bottom: 70px;
+}
