@@ -137,7 +137,7 @@ padding: 10px;
     position: relative;
 }
 .safari-form{
-    height: 600px;
+    height: 500px;
     border: 1px solid;
     border-color: #bdbdbd;
     display: flex;
@@ -157,7 +157,7 @@ padding: 10px;
 }
 .safari-form-price-tab h6{
     font-size: 20px;
-    color: red;
+    color: #e17803;
 }
 .input-field{
     border: 1px solid;
@@ -239,7 +239,7 @@ padding: 10px;
 
 
 .tab-header{
-    background-color: #BAA378 !important;
+    background-color: #bdb19b !important;
     font-weight: bold;
 }
 .collapsible-header img{
@@ -253,4 +253,9 @@ padding: 10px;
 .no-padding{
     padding-left: 10px !important;
     color: white !important;
+}
+.safari-details-header{
+margin: 0 auto;
+text-align: center;
+margin-top: 50px;
 }
