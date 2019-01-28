@@ -79,8 +79,9 @@ padding: 10px;
     left: 0;
     position: absolute;
     z-index: -90;
-    height: 450px;
+    height: 500px;
     width: 100%;
+    margin-bottom: 50px;
 }
 .aboutus-header-image img{
     width: 100%;
@@ -262,6 +263,7 @@ margin: 0 auto;
 text-align: center;
 display: flex;
 flex-direction: column;
+margin-top: 50px;
 }
 .safari-details-header h6{
     font-weight: bold;
