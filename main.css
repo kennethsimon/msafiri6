@@ -4,7 +4,7 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #eeeeee;
+    background-color: #bdbdbd;
 }
 .header{
     width: 100%;
@@ -21,6 +21,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: row;
+
 }
 .navigation2{
     width: 100%;
@@ -219,4 +220,11 @@ body{
 }
 .tab-text{
     color: #e17803 !important;
+    font-weight: bold;
 }
+.tabs .indicator{
+    background-color: #e17803 !important;
+}
+.tabs .tab a.active {
+    background-color:#fff !important;
+} 
