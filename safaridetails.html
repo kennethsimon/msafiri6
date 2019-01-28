@@ -220,7 +220,7 @@
         <div class="col s12 m4 safari-form">
             <div class="safari-form-price-tab">
                 <p>Booking details</p>
-                <h6>$216/person</h6>
+                <h6 id='demo'>$2000</h6>
             </div>
             <div class="divider"></div>
         <form class="col s12">
@@ -234,7 +234,7 @@
         </select>
         </div>
         <div class="input-field col s12">
-            <select>
+            <select id='myselect' onchange="myFunction()">
               <option value=""selected>Number of people - minimum 4 people</option>
               <option value="1">4</option>
               <option value="2">5</option>
