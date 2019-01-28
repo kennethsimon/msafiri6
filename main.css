@@ -276,5 +276,7 @@ flex-direction: column;
     margin-left: 20px;
 }
 #demo{
+    font-weight: bold;
     font-size: 16px;
+    margin-right: 20px;
 }
