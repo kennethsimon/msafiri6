@@ -184,7 +184,7 @@ padding: 10px;
   }
 
   .book-button{
-      width: 100%;
+      width: 50%;
       height: 50px;
       background-color: #e17803;
   }
@@ -273,4 +273,8 @@ flex-direction: column;
 .booking-header{
     font-weight: bold;
     color: white;
+    margin-left: 20px;
+}
+#demo{
+    font-size: 16px;
 }
