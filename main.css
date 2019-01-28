@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
     padding: 0px;
     margin: 0px;
@@ -236,7 +237,7 @@ padding: 10px;
 } 
 
 .tab-header{
-    background-color: #e8f5e9 !important;
+    background-color: #aed581 !important;
     font-weight: bold;
 }
 .collapsible-header img{
@@ -245,6 +246,7 @@ padding: 10px;
 }
 .tab-body{
     background-color:#e0e0e0 !important;
+    font-family: 'Roboto', sans-serif;
 }
 .no-padding{
     padding-left: 10px !important;
