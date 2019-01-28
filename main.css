@@ -228,3 +228,12 @@ body{
 .tabs .tab a.active {
     background-color:#fff !important;
 } 
+
+.collapsible-header{
+    background-color: #fff3e0 !important;
+    font-weight: bold;
+}
+.collapsible-header img{
+    width: 30px;
+    height: 30px;
+}
