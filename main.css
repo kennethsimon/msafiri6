@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body{
     padding: 0px;
     margin: 0px;
@@ -37,9 +37,12 @@ body{
     align-items: center;
 }
 .sidebar .icon{
-    color: white;
     left: 50px;
     position: relative;
+}
+.sidebar .icon img{
+width: 30px;
+height: 30px;
 }
 .navigation .logo,.navigation2 .logo{
     flex: 1;
@@ -236,4 +239,8 @@ body{
 .collapsible-header img{
     width: 30px;
     height: 30px;
+}
+.collapsible-body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }

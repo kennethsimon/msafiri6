@@ -3,4 +3,5 @@ $(document).ready(function(){
     $('.tabs').tabs();
     $('.collapsible').collapsible();
     $('select').formSelect();
+    $('.dropdown-trigger').dropdown();
 });
