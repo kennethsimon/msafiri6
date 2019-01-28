@@ -155,10 +155,11 @@ padding: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: #e17803;
 }
 .safari-form-price-tab h6{
     font-size: 20px;
-    color: #e17803;
+    color: white;
 }
 .input-field{
     border: 1px solid;
@@ -271,5 +272,5 @@ flex-direction: column;
 }
 .booking-header{
     font-weight: bold;
-    color: #e17803;
+    color: white;
 }
