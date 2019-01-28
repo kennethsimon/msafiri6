@@ -269,3 +269,7 @@ flex-direction: column;
     background-color: #e17803 !important;
     padding-bottom: 5px;
 }
+.booking-header{
+    font-weight: bold;
+    color: #e17803;
+}
