@@ -145,7 +145,7 @@ padding: 10px;
     justify-content: space-evenly;
     border-radius: 1px;
     background-color: white;
-    margin-top: 54px;
+    
 }
 .safari-form-price-tab{
     width: 100%;
@@ -239,7 +239,7 @@ padding: 10px;
 
 
 .tab-header{
-    background-color: #eceff1 !important;
+    background-color: #BAA378 !important;
     font-weight: bold;
 }
 .collapsible-header img{
