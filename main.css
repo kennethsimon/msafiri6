@@ -133,7 +133,7 @@ padding: 10px;
     width: 90%;
 }
 .safari-details-tabs{
-    margin-top: 100px;
+    margin-top: 50px;
     position: relative;
 }
 .safari-form{
@@ -245,6 +245,7 @@ padding: 10px;
 .collapsible-header img{
     width: 30px;
     height: 30px;
+    margin-right: 10px;
 }
 .tab-body{
     background-color:#e0e0e0 !important;
@@ -257,4 +258,6 @@ padding: 10px;
 .safari-details-header{
 margin: 0 auto;
 text-align: center;
+display: flex;
+flex-direction: column;
 }
