@@ -16,7 +16,7 @@ body{
     width: 100%;
     height: 50px;
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 0;
     position: relative;
     display: flex;
@@ -26,36 +26,35 @@ body{
 .navigation2{
     width: 100%;
     height: 50px;
-    position: relative;
+    position: absolute;
+    top: 20px;
+    left: 0;
     display: flex;
     flex-direction: row;
-    background-color: #e17803;
 }
 .sidebar{
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .sidebar .icon{
     left: 50px;
     position: relative;
 }
 .sidebar .icon img{
-width: 30px;
-height: 30px;
+width: 50px;
+height: 50px;
+background-color: #e17803;
+padding: 10px;
 }
-.navigation .logo,.navigation2 .logo{
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.logo a{
+
+.logo img{
     position: relative;
     right: 50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+    height: 50px;
+    left: 50px;
+    margin-bottom: 20px;
 }
 .header-video{
     top: 50%;
@@ -70,13 +69,17 @@ height: 30px;
 }
 .aboutus-header{
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    height: 450px;
+    position: relative;
 }
 
 .aboutus-header-image{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -90;
     height: 450px;
-    flex: 5;
+    width: 100%;
 }
 .aboutus-header-image img{
     width: 100%;
@@ -246,4 +249,5 @@ height: 30px;
 }
 .no-padding{
     padding-left: 10px !important;
+    color: white !important;
 }
