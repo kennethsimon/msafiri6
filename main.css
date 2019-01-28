@@ -267,4 +267,5 @@ flex-direction: column;
 }
 .page-footer{
     background-color: #e17803 !important;
+    padding-bottom: 5px;
 }
