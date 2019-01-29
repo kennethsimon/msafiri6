@@ -305,3 +305,11 @@ margin-top: 50px;
     justify-content: space-evenly;
     padding-bottom: 100px;
 }
+@media(max-width: 968px){
+    .contactus-container{
+        width: 95%;
+    }
+    .home-container{
+        width: 95%;
+    }
+}
