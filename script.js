@@ -8,4 +8,3 @@ $(document).ready(function(){
         e.preventDefault();
     });
 });
-document.addEventListener('contextmenu', event => event.preventDefault());
