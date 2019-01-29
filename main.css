@@ -277,7 +277,10 @@ margin-top: 50px;
     position: absolute;
     width: 100%;
 }
-.page-footer p,h6{
+.page-footer p{
+    font-size: 12px !important;
+}
+.page-footer h6{
     font-size: 12px !important;
 }
 .booking-header{
