@@ -46,7 +46,7 @@ body{
 .sidebar .icon img{
 width: 50px;
 height: 50px;
-background-color: #e17803;
+background-color: rgb(225, 120, 3);
 padding: 10px;
 }
 
@@ -117,7 +117,7 @@ padding: 10px;
    flex-direction: column;
 }
 .safari-button{
-    background-color: #e17803 !important;
+    background-color: rgb(225, 120, 3) !important;
     width: 100%;
 }
 .safari-card-words h4{
@@ -156,7 +156,7 @@ padding: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #e17803;
+    background-color: rgb(225, 120, 3);
 }
 .safari-form-price-tab h6{
     font-size: 20px;
@@ -187,7 +187,7 @@ padding: 10px;
   .book-button{
       width: 50%;
       height: 50px;
-      background-color: #e17803;
+      background-color: rgb(225, 120, 3) !important;
   }
   #gallery-tab{
     column-count: 2;
@@ -203,7 +203,7 @@ padding: 10px;
       margin-bottom: 20px;
   }
   .tour-instructions i{
-      color: #e17803;
+      color: rgb(225, 120, 3);
   }
   .tour-details-photo{
     width: 100%;
@@ -234,10 +234,10 @@ padding: 10px;
     font-weight: bold;
 }
 .tabs{
-    background-color: #e17803 !important;
+    background-color: rgb(225, 120, 3) !important;
 }
 .tabs .indicator{
-    background-color: #e17803 !important;
+    background-color: rgb(225, 120, 3) !important;
 }
 
 
@@ -269,7 +269,7 @@ margin-top: 50px;
     font-size: 20px;
 }
 .page-footer{
-    background-color: #e17803 !important;
+    background-color: rgb(225, 120, 3) !important;
     padding-bottom: 5px;
 }
 .booking-header{
