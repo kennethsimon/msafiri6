@@ -304,6 +304,9 @@ margin-top: 50px;
     .home-container{
         width: 95%;
     }
+    .contactus{
+        width: 95%;
+    }
 }
 .safari-carousel{
     height: 100%;
@@ -319,7 +322,7 @@ margin-top: 50px;
 .safari-form-contact{
     width: 95%;
     margin: 0 auto;
-    height: 700px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

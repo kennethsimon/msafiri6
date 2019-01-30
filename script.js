@@ -9,7 +9,8 @@ $(document).ready(function(){
         margin:0,
         autoplay: true,
         loop: true,
-        autoHeight:true
+        autoHeight:true,
+        indicators: true,
     });
     $('body').bind('cut copy paste', function (e) {
         e.preventDefault();
