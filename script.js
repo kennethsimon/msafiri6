@@ -4,6 +4,13 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
     $('select').formSelect();
     $('.dropdown-trigger').dropdown();
+    $('.owl-carousel').owlCarousel({
+        items:1,
+        margin:0,
+        autoplay: true,
+        loop: true,
+        autoHeight:true
+    });
     $('body').bind('cut copy paste', function (e) {
         e.preventDefault();
     });

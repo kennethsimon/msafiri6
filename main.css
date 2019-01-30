@@ -79,16 +79,10 @@ padding: 10px;
     left: 0;
     position: absolute;
     z-index: -90;
-    height: 500px;
-    width: 100%;
-    margin-bottom: 50px;
-}
-.aboutus-header-image img{
-    width: 100%;
     height: 100%;
-    display: block;
-    object-fit: cover;
+    width: 100%;
 }
+
 .safari-card-area{
     width: 95%;
     margin: 0 auto;
@@ -296,20 +290,38 @@ margin-top: 50px;
 #prices-tab, #gallery-tab{
     margin-top: 20px;
 }
-.contactus-container{
-    padding-top: 100px;
+.contactus{
     margin: 0 auto;
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-bottom: 100px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 @media(max-width: 968px){
-    .contactus-container{
+    .contactus{
         width: 95%;
     }
     .home-container{
         width: 95%;
     }
+}
+.safari-carousel{
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+.safari-carousel img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.safari-form-contact{
+    width: 95%;
+    margin: 0 auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
 }
