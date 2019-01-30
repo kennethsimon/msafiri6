@@ -10,7 +10,6 @@ $(document).ready(function(){
         autoplay: true,
         loop: true,
         autoHeight:true,
-        indicators: true,
     });
     $('body').bind('cut copy paste', function (e) {
         e.preventDefault();
