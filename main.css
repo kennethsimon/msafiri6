@@ -159,11 +159,9 @@ padding: 10px;
 .input-field{
     border: 1px solid;
     border-color: #bdbdbd;
-    height: 30px;
+    height: 50px;
     background-color: rgb(251, 253, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
   }
   .input-field select{
       width: 100%;
