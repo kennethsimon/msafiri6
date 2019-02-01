@@ -19,7 +19,6 @@ body{
     position: absolute;
     top: 20px;
     left: 0;
-    position: relative;
     display: flex;
     flex-direction: row;
 
@@ -333,7 +332,15 @@ margin-top: 50px;
 }
 .gallery-tab-container{
     width: 100%;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
     height: 100vh;
     overflow: hidden;
+}
+.gallery-navigation{
+position: absolute;
+top: 50px;
+left: 0;
 }
