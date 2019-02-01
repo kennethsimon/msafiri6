@@ -133,7 +133,7 @@ padding: 10px;
     margin-bottom: 100px;
 }
 .safari-form{
-    height: 700px;
+    height: 750px;
     border: 1px solid;
     border-color: #bdbdbd;
     display: flex;
@@ -161,7 +161,7 @@ padding: 10px;
     border-color: #bdbdbd;
     height: 50px;
     background-color: rgb(251, 253, 255);
-   
+
   }
   .input-field select{
       width: 100%;
@@ -331,19 +331,7 @@ margin-top: 50px;
     justify-content: space-evenly;
     background-color: white;
 }
-.gallery-container{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 50px;
+.gallery-tab-container{
+    width: 100%;
+    position: relative;
 }
-  .galleria{
-      position: relative;
-      height: 300px;
-  }
- .galleria > img{
-      width: 100%;
-      height: 100%;
-      display: block;
-      object-fit: cover;
-      margin-bottom: 20px;
-  }
