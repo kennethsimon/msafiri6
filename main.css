@@ -334,4 +334,6 @@ margin-top: 50px;
 .gallery-tab-container{
     width: 100%;
     position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
