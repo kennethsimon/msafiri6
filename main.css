@@ -132,7 +132,7 @@ padding: 10px;
     margin-bottom: 100px;
 }
 .safari-form{
-    height: 750px;
+    height: 800px;
     border: 1px solid;
     border-color: #bdbdbd;
     display: flex;
@@ -350,4 +350,12 @@ left: 0;
     position: absolute;
     z-index: -60;
     background-color: rgb(225, 120, 3) !important;
+}
+.footer-heading{
+    font-weight: bold;
+}
+.ken{
+    margin-bottom: 20px;
+    border-color: #bdbdbd;
+    background-color: rgb(251, 253, 255);
 }
