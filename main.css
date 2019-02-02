@@ -162,9 +162,7 @@ padding: 10px;
     background-color: rgb(251, 253, 255);
 
   }
-  .input-field select{
-      width: 100%;
-  }
+  
 .input-field input[type=email],input[type=password],input[type=text]{
     border: none !important;
     border-bottom: 0px;
