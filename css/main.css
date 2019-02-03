@@ -393,3 +393,27 @@ align-items: center;
     display: block;
     object-fit: cover;
 }
+@media(max-width: 576px){
+    .overview-words-area h3{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .overview-words-area h6{
+        font-size: 14px;
+    }
+    .overview-words-area p{
+        font-size: 12px;
+    }
+}
+.facebook-icon{
+    color: #3b5998 !important;
+}
+.twitter-icon{
+    color: #00aced;
+}
+.instagram-icon{
+    color: #bc2a8d;
+}
+.whatsapp-icon{
+    color: #25d366;
+}
