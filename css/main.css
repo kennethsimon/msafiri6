@@ -60,15 +60,25 @@ padding: 10px;
     margin-bottom: 20px;
 }
 .header-video{
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
     position: absolute;
     z-index: -99;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-video video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
 }
 .aboutus-header{
     width: 100%;
