@@ -516,7 +516,7 @@ align-items: center;
     object-fit: cover;
 }
 .destinations-page{
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -531,8 +531,13 @@ align-items: center;
     flex: 1;
     background-color: black;
 }
-@media(max-width: 968px){
-    .destinations-page{
-        width: 90%;
-    }
+.destinations-page h6{
+    font-weight: bold;
+}
+.destinations-page h4{
+    color: #e17803;
+    font-weight: bold;
+}
+.destination-p{
+    margin: 0 auto;
 }
