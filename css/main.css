@@ -269,14 +269,16 @@ padding: 10px;
 }
 .safari-details-header{
 margin: 0 auto;
-text-align: center;
+width: 100%;
 display: flex;
+align-items: center;
 flex-direction: column;
 margin-top: 50px;
 }
 .safari-details-header h6{
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
 }
 .page-footer{
     background-color: rgb(225, 120, 3) !important;
@@ -538,6 +540,8 @@ align-items: center;
     color: #e17803;
     font-weight: bold;
 }
-.destination-p{
-    margin: 0 auto;
+.msafiridestinations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
