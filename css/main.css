@@ -516,7 +516,23 @@ align-items: center;
     object-fit: cover;
 }
 .destinations-page{
-    width: 100%;
-    height: 500px;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.destinations-page h2,h4,h6,p{
+    max-width: 605px;
+}
+.destination-photo{
+    height: 100vh;
+    position: static;
+    flex: 1;
     background-color: black;
+}
+@media(max-width: 968px){
+    .destinations-page{
+        width: 90%;
+    }
 }
