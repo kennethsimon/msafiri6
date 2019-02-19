@@ -460,7 +460,12 @@ align-items: center;
     height: 100vh;
     overflow: auto;
     justify-content: center;
+    flex-direction: column;
     display: flex;
+}
+.aboutus-words-area h3{
+    margin-top: 100px;
+    font-weight: bold;
 }
 .aboutus-words-area p{
     max-width: 605px;
