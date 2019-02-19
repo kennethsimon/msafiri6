@@ -378,17 +378,18 @@ left: 0;
     height: 100vh;
 }
 .overview-words{
-    height: 100vh;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 .overview-words-area{
     width: 90%;
-    height: 90%;
+    top: 100px;
+    position: relative;
 }
 .overview-photo-area{
-height: 100vh;
+    top: 100px;
+    position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
