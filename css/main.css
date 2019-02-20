@@ -393,7 +393,7 @@ left: 0;
 .overview-photo-area{
     top: 20px;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
 display: flex;
 justify-content: center;
