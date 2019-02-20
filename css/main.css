@@ -568,7 +568,7 @@ align-items: center;
     background-color: rgb(251, 253, 255);
 }
 .sidenav{
-    width: 200px !important;
+    width: 250px !important;
 }
 .sidenav li a{
     font-weight: 800 !important;
