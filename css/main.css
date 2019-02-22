@@ -478,6 +478,12 @@ align-items: center;
     line-height: 40px;
     font-size: 15px;
 }
+.aboutus-words-area h6{
+    max-width: 605px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
 .aboutus-words-area span{
     font-size: 40px;
     font-weight: 800;
