@@ -574,7 +574,7 @@ align-items: center;
     background-color: rgb(251, 253, 255);
 }
 .sidenav{
-    width: 250px !important;
+    width: 280px !important;
 }
 .sidenav img{
     height: 40px;
@@ -584,6 +584,7 @@ align-items: center;
 }
 .sidenav li a{
     font-weight: 800 !important;
+    font-size: 16px !important;
 }
 .no-padding{
     padding: 0 !important;
