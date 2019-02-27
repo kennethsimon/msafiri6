@@ -6,6 +6,7 @@ $(document).ready(function(){
     $('.dropdown-trigger').dropdown();
     $('.materialboxed').materialbox();
     $('.scrollspy').scrollSpy();
+    $('.modal').modal();
     $('.owl-carousel').owlCarousel({
         items:1,
         margin:0,
