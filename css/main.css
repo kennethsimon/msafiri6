@@ -582,4 +582,6 @@ align-items: center;
 .no-padding{
     padding: 0 !important;
 }
-
+.youtube-icon{
+    color: red;
+}
