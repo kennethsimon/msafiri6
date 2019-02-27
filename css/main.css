@@ -579,3 +579,7 @@ align-items: center;
 .sidenav li a{
     font-weight: 800 !important;
 }
+.no-padding{
+    padding: 0 !important;
+}
+
