@@ -600,3 +600,16 @@ align-items: center;
     display: block;
     object-fit: cover;
 }
+.admin-body{
+    width: 80%;
+    margin: 0 auto;
+}
+.admin-safari-form{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    top: 100px;
+    position: relative;
+    border-radius: 10px;
+}
