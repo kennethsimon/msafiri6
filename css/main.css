@@ -633,6 +633,6 @@ align-items: center;
     background-color: black !important;
 }
 .sidenav{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
 }
