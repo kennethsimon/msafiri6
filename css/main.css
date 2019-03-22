@@ -403,9 +403,13 @@ align-items: center;
     height: 95%;
 }
 .photo1{
-    height: 300px;
+    height: 50%;
     position: relative;
     margin-bottom: 20px;
+}
+.photo2{
+    height: 100%;
+    position: relative;
 }
 .photo2 img{
     width: 100%;
