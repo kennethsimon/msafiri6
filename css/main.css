@@ -342,20 +342,7 @@ margin-top: 50px;
     justify-content: space-evenly;
     background-color: white;
 }
-.gallery-tab-container{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -99;
-    height: 100vh;
-    overflow: hidden;
-}
-.gallery-navigation{
-position: absolute;
-top: 50px;
-left: 0;
-}
+
 .dropdown-icon{
     top: 90%;
     left: 90%;
@@ -640,4 +627,33 @@ align-items: center;
 .sidenav{
     padding-left: 5px !important;
     padding-right: 5px !important;
+}
+
+.gallery-page-header{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+.gallery-page-images{
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+.gallery-carousel{
+    height: calc(100vh - 50px);
+    position: relative;
+}
+.gallery-carousel img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-navigation{
+    position: absolute;
+    top: 50px;
+    left: 0;
 }
