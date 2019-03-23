@@ -14,8 +14,8 @@ $(document).ready(function(){
         loop: true,
         autoHeight:true,
     });
-    $('body').bind('cut copy paste', function (e) {
-        e.preventDefault();
-    });
+   // $('body').bind('cut copy paste', function (e) {
+      //  e.preventDefault();
+    //});
 });
 //document.addEventListener('contextmenu', event => event.preventDefault());
