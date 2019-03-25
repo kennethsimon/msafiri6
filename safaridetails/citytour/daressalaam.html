@@ -237,9 +237,9 @@
                    <form name='dar-es-salaam city tour' class="col s12" method='POST' data-netlify='true'>
                       <div class="row">
                          <div class="input-field col s12">
-                            <input placeholder="Name" type="text" id='firstname'/>
+                            <input name='fullname' placeholder="Name" type="text" id='firstname'/>
                          </div>
-                         <select class="browser-default ken" name='date'>
+                         <select class="browser-default ken" name="role[]">
                             <option class='others' value="" disabled>Choose date</option>
                             <option class='others' value="1">February 14</option>
                             <option class='others' value="2">June 16</option>
@@ -261,10 +261,10 @@
                             <input placeholder="Contact/whatsapp" id="contact" type="text"/>
                          </div>
                          <div class="input-field col s12">
-                            <input placeholder="Email" id="email" type="text"/>
+                            <input name='email' placeholder="Email" id="email" type="text"/>
                          </div>
                          <div class="input-field col s12">
-                            <input placeholder="extra details" id="details" type="text"/>
+                            <input name='extra details' placeholder="extra details" id="details" type="text"/>
                          </div>
                          <div class="col s12 recap">
                            <div data-netlify-recaptcha='true'></div>
