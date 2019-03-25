@@ -689,3 +689,6 @@ align-items: center;
 .card-content h6{
     font-weight: bold !important;
 }
+.recap{
+    padding-bottom: 10px !important;
+}
