@@ -273,7 +273,7 @@ width: 100%;
 display: flex;
 align-items: center;
 flex-direction: column;
-margin-top: 50px;
+margin-top: 20px;
 }
 .safari-details-header h6{
     font-weight: bold;
