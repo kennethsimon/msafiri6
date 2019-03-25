@@ -234,7 +234,7 @@
                       <h6 id='demo'>USD 2000/PERSON</h6>
                    </div>
                    <div class="divider"></div>
-                   <form class="col s12" netlify>
+                   <form class="col s12" action='POST' data-netlify='true'>
                       <div class="row">
                          <div class="input-field col s12">
                             <input placeholder="Name" id="name" type="text" class="validate">
@@ -265,6 +265,9 @@
                          </div>
                          <div class="input-field col s12">
                             <input placeholder="extra details" id="first_name" type="text" class="validate">
+                         </div>
+                         <div class="input-field">
+                            <div data-netlify-recaptcha='true'></div>
                          </div>
                          <a class="btn book-button z-depth-0 center">Book now</a>
                    </form>
