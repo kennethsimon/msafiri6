@@ -388,6 +388,7 @@ max-width: 1000px !important;
     margin-top: 100px;
     margin: 0 auto;
     top: 100px;
+
 }
 .overview-words-area h6{
     font-weight: bold;
@@ -703,6 +704,7 @@ align-items: center;
     flex-direction: column;
     background-color: grey;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 .overview-links a{
     color: white;
