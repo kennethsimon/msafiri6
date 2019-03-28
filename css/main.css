@@ -703,11 +703,14 @@ align-items: center;
     display: flex;
     flex-direction: column;
     background-color: grey;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 30px;
 }
 .overview-links a{
     color: white;
+}
+.overview-links a:hover{
+    color: #e17803;
 }
 .overview-links span{
     font-weight: bold;
