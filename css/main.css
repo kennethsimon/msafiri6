@@ -695,3 +695,18 @@ align-items: center;
 .recap{
     padding-bottom: 10px !important;
 }
+.overview-links{
+    width: 100%;
+    padding-top: 10px;
+align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    border-radius: 5px;
+}
+.overview-links a{
+    color: white;
+}
+.overview-links span{
+    font-weight: bold;
+}
