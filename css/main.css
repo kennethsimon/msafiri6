@@ -162,7 +162,7 @@ padding: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(225, 120, 3);
+    background-color: rgb(225, 120, 3) !important;
 }
 .safari-form-price-tab h6{
     font-size: 20px;
@@ -570,7 +570,7 @@ align-items: center;
     font-weight: bold;
 }
 .destinations-page h4{
-    color: #e17803;
+    color: #e17803 !important;
     font-weight: bold;
 }
 .msafiridestinations{
