@@ -393,6 +393,9 @@ max-width: 1000px !important;
 .overview-words-area h6{
     font-weight: bold;
 }
+.overview-words-area p{
+    text-align: justify;
+}
 .overview-words-area :first-child{
     margin-top: 100px;
 }
@@ -699,7 +702,10 @@ align-items: center;
 .overview-links{
     width: 100%;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 align-items: center;
+text-align: center;
     display: flex;
     flex-direction: column;
     background-color: grey;
