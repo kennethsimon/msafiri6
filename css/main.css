@@ -460,8 +460,7 @@ align-items: center;
         font-size: 12px;
     }
     .dropdown-icon{
-        top: 200px;
-        left: 80%;
+        display: none !important;
     }
 }
 .facebook-icon{
