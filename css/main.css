@@ -135,6 +135,18 @@ padding: 10px;
     .safari-card{
         width: 100%;
     }
+    .aboutus-header{
+        height: 300px;
+    }
+    .aboutus-header-image{
+        height: 300px;
+    }
+    .safari-carousel{
+        height: 300px;
+    }
+    .safari-card-area{
+        margin-top: 50px;
+    }
 }
 .home-container{
     margin: 0 auto;
@@ -446,6 +458,10 @@ align-items: center;
     }
     .overview-words-area p{
         font-size: 12px;
+    }
+    .dropdown-icon{
+        top: 200px;
+        left: 80%;
     }
 }
 .facebook-icon{
