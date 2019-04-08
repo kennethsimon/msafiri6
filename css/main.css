@@ -153,9 +153,9 @@ padding: 10px;
     width: 90%;
 }
 .safari-details-tabs{
-    margin-top: 50px;
+    margin-top: 10px;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .safari-form{
     border: 1px solid;
@@ -294,7 +294,7 @@ padding: 10px;
     padding:  0px !important;
 }
 .safari-details-header{
-margin-top: 40px !important;
+margin-top: 10px !important;
 width: 90%;
 margin: 0 auto;
 display: flex;
@@ -312,6 +312,9 @@ max-width: 1000px !important;
     background-color: rgb(225, 120, 3) !important;
     position: absolute;
     width: 100%;
+}
+.page-footer > .home-container{
+    margin-bottom: -50px;
 }
 .page-footer p{
     font-size: 12px !important;
