@@ -56,7 +56,7 @@ main {
     z-index: 99;
 }
 .header .icon{
-margin-top: 100px !important;
+margin-top: 80px !important;
 }
 .sidebar .icon img{
 width: 50px;
@@ -67,9 +67,8 @@ padding: 10px;
 
 .logo img{
     position: relative;
-    right: 50px;
     height: 50px;
-    left: 50px;
+    left: 20px;
     margin-bottom: 20px;
 }
 .header-video{
@@ -158,6 +157,9 @@ padding: 10px;
     }
     .safari-card-area{
         margin-top: 50px;
+    }
+    .logo img{
+        height: 30px;
     }
 }
 .home-container{
