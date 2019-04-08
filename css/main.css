@@ -325,9 +325,7 @@ max-width: 1000px !important;
 .page-footer{
     background-color: rgb(225, 120, 3) !important;
 }
-.page-footer > .home-container{
-    margin-bottom: -50px !important;
-}
+
 
 .page-footer p{
     font-size: 12px !important;
