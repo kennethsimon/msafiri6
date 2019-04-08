@@ -16,10 +16,10 @@ $(document).ready(function(){
     });
   
 });
-document.addEventListener('contextmenu', event => event.preventDefault());
-  $('body').bind('cut copy paste', function (e) {
-        e.preventDefault();
-    });
+//document.addEventListener('contextmenu', event => event.preventDefault());
+//  $('body').bind('cut copy paste', function (e) {
+  //      e.preventDefault();
+  //  });
     //var sources = video.getElementsByTagName('source');
 if (window.Modernizr && window.Modernizr.on) {
     window.Modernizr.on('videoautoplay', function() {

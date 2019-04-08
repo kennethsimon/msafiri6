@@ -49,6 +49,9 @@ body{
     position: fixed;
     z-index: 99;
 }
+.header .icon{
+margin-top: 100px !important;
+}
 .sidebar .icon img{
 width: 50px;
 height: 50px;
@@ -315,9 +318,6 @@ max-width: 1000px !important;
     background-color: rgb(225, 120, 3) !important;
     position: absolute;
     width: 100%;
-}
-.page-footer > .home-container{
-    margin-bottom: -10px;
 }
 .page-footer p{
     font-size: 12px !important;
