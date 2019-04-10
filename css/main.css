@@ -573,7 +573,6 @@ align-items: center;
 .team-card-photo{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
     overflow: hidden;
 }
 .team-card-photo img{
@@ -749,4 +748,17 @@ text-align: center;
 }
 .overview-links span{
     font-weight: bold;
+}
+.aboutus-main{
+    width: 100%;
+    padding: 100px;
+}
+.aboutus-main h6{
+    font-weight: bold;
+    font-style: italic;
+}
+@media(max-width: 968px){
+    .aboutus-main{
+        padding: 20px;
+    }
 }
