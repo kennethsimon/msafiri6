@@ -7,13 +7,7 @@ body{
     margin: 0px;
     font-family: 'Lato', sans-serif;
     background-color: #bdbdbd;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
 }
-main {
-    flex: 1 0 auto;
-  }
 .header{
     width: 100%;
     height: 100vh;
@@ -492,8 +486,11 @@ align-items: center;
 
 .aboutus-area{
     width: 100%;
+    height: 100vh;
     top: 0;
     left: 0;
+    position: relative;
+    overflow: hidden;
 }
 .aboutus-photo-area{
     height: 100vh;
@@ -510,9 +507,9 @@ align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
+    position: relative;
 }
 .aboutus-words-area h3{
-    margin-top: 100px;
     font-weight: bold;
 }
 .aboutus-words-area p{
@@ -751,7 +748,9 @@ text-align: center;
 }
 .aboutus-main{
     width: 100%;
+    height: 100vh;
     padding: 100px;
+    overflow: auto;
 }
 .aboutus-main h6{
     font-weight: bold;
