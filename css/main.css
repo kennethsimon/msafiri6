@@ -288,6 +288,11 @@ padding: 10px;
 .tab-header{
     background-color: #bdb19b !important;
     font-weight: bold;
+    border-color: black !important;
+    border: 1px solid !important;
+}
+.collapsible{
+    border: 0px !important;
 }
 .collapsible-header > img{
     width: 30px;
