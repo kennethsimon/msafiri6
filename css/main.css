@@ -55,7 +55,7 @@ margin-top: 80px !important;
 .sidebar .icon img{
 width: 50px;
 height: 50px;
-background-color: rgb(225, 120, 3);
+background-color: #e17803;
 padding: 10px;
 }
 
@@ -129,7 +129,7 @@ padding: 10px;
    flex-direction: column;
 }
 .safari-button{
-    background-color: rgb(225, 120, 3) !important;
+    background-color: #e17803 !important;
     width: 100%;
 }
 .safari-card-words h4{
@@ -182,7 +182,7 @@ padding: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(225, 120, 3) !important;
+    background-color: #e17803 !important;
 }
 .safari-form-price-tab h6{
     font-size: 20px;
@@ -227,7 +227,7 @@ padding: 10px;
   .book-button{
       width: 50%;
       height: 50px;
-      background-color: rgb(225, 120, 3) !important;
+      background-color: #e17803 !important;
   }
   #gallery-tab{
     column-count: 2;
@@ -278,10 +278,10 @@ padding: 10px;
     font-weight: bold;
 }
 .tabs{
-    background-color: rgb(225, 120, 3) !important;
+    background-color: #e17803 !important;
 }
 .tabs .indicator{
-    background-color: rgb(225, 120, 3) !important;
+    background-color: #e17803 !important;
 }
 
 
@@ -320,7 +320,7 @@ text-align: center;
 max-width: 1000px !important;
 }
 .page-footer{
-    background-color: rgb(225, 120, 3) !important;
+    background-color: #e17803 !important;
 }
 
 
