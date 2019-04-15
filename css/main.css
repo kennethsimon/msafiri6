@@ -389,7 +389,7 @@ max-width: 1000px !important;
     left: 90%;
     position: absolute;
     z-index: -60;
-    background-color: rgb(225, 120, 3) !important;
+    background: #e17803 !important;
 }
 .footer-heading{
     font-weight: bold;
