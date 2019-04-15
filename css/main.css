@@ -321,6 +321,8 @@ max-width: 1000px !important;
 }
 .page-footer{
     background-color: #e17803 !important;
+    position: absolute;
+    width: 100%;
 }
 
 
